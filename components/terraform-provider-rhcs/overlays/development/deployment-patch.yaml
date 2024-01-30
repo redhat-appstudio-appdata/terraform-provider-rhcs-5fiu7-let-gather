@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: terraform-provider-rhcs
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rh-terraform-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:1e457503cbc589736d8458c2a22fb043a67438842de8267a52369aa5939d06eb
+        name: container-image
+        resources: {}
+status: {}
