@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: terraform-provider-rhcs
     app.kubernetes.io/part-of: terraform-provider-rhcs
-  name: terraform-provider-rhcsktmz
+  name: terraform-provider-rhcsn3el
 spec:
   port:
     targetPort: 8080
