@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rh-terraform-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:9453e8800814251f8e5c72c1302aa89d1d85be372363c4abda03ae66308fba78
+      - image: quay.io/redhat-user-workloads/rh-terraform-tenant/terraform-provider-rhcs/terraform-provider-rhcs@sha256:e3e90eae64c30941b4b81ab2e5634533bf101f1e6bbebbfdbb937c92a8ba2c15
         name: container-image
         resources: {}
 status: {}
